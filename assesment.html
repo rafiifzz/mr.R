@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soal 1</title>
+</head>
+<body>
+    <div id="profil">
+        <img src="media/download (25).jpg">
+        <h1>Rafii Fauzi T</h1>
+        <p>6701220056</p>
+        <p>D3SI-46-01</p>
+    </div>
+    <div id="form-pemesanan">
+        <label for="jumlah">jumlah buku</label>
+        <input type="number" id="jumlah" name="jumlah">
+        <br>
+        <label for="buku">pilih buku :</label>
+        <select id="buku" name="buku">
+            <option value="sherlock">sherlock holmes</option>
+            <option value="lupin">lupin III</option>
+            <option value="aladin">aladdin</option>
+        </select>
+        <br>
+        <button type="button" onclick="cekBuku()">pesan buku</button>
+    </div>
+    <p id="hasil"></p>
+    <script src="script.js"></script>
+</body>
+</html>
